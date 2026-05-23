@@ -95,7 +95,7 @@ Type This Text	Click Button	Expected Result
 "Hey, want to grab lunch?"	Check Spam/Ham	✅ HAM
 "This movie was amazing!"	Check Sentiment	😊 POSITIVE
 "Worst movie ever"	Check Sentiment	😞 NEGATIVE
-
+-- 
 ## Requirements
 tensorflow>=2.13.0
 streamlit>=1.28.0
