@@ -47,6 +47,7 @@ Embedding(10000, 128) → Bidirectional LSTM(64) → Dense(64) → Dropout(0.3) 
 | Training Platform | Google Colab |
 
 ---
+## 📊 Dataset
 
 ## 📁 Project Structure
 DL_PROJECT/
@@ -64,6 +65,15 @@ DL_PROJECT/
 ├── sentiment_bilstm_model.h5 # BiLSTM model for sentiment
 └── sentiment_tokenizer.pkl # Tokenizer for sentiment
 
+Due to GitHub file size limits, the dataset can be downloaded from:
+
+- **IMDB Dataset (50,000 movie reviews):** [Download from Kaggle](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+- **SMS Spam Collection:** [Download from UCI](https://archive.ics.uci.edu/ml/datasets/SMS+Spam+Collection)
+
+After downloading, place files in `data/` folder:
+data/
+├── spam.csv
+└── IMDB_Dataset.csv
 
 ---
 
