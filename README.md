@@ -96,7 +96,7 @@ Type This Text	Click Button	Expected Result
 "This movie was amazing!"	Check Sentiment	😊 POSITIVE
 "Worst movie ever"	Check Sentiment	😞 NEGATIVE
 
-Requirements
+## Requirements
 tensorflow>=2.13.0
 streamlit>=1.28.0
 pandas
